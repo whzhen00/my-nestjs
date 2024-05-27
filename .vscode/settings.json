@@ -1,3 +1,6 @@
 {
-  "explorer.fileNesting.enabled": true
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.patterns": {
+    "tsconfig.json": "tsconfig.*.json, .env, *.js, *.json, .prettierrc,*.md, .gitignore, .env.example",
+  }
 }
